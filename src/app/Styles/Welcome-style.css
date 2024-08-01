@@ -1,0 +1,40 @@
+.welcome-head {
+  color: white;
+}
+.welcome-word p {
+  color: white;
+  opacity: 0.5;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+  line-height: 25px;
+}
+.welcome-body p:last-child {
+  margin-bottom: 0;
+}
+
+.welcome-word a {
+  color: white;
+  text-decoration: none;
+}
+.welcome-word a:hover {
+  border-bottom: 1px solid white;
+}
+
+.welcome-body {
+  padding: 4vh 3vh;
+  width: 83vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #09090b;
+  border: 2px solid rgb(39, 39, 42);
+  border-radius: 12px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 95%;
+  margin-top: 10px;
+}

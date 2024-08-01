@@ -1,0 +1,46 @@
+.box {
+  color: white;
+  background-color: #09090b;
+  display: flex;
+  flex-direction: column;
+  padding: 2.5vh 3vh;
+  width: 40vh;
+  border-radius: 8px;
+  border: 2px solid rgb(39, 39, 42);
+  cursor: pointer;
+}
+
+.box:hover {
+  background-color: #18181b;
+}
+
+.prompts-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 90vh;
+}
+
+
+.box p {
+  opacity: 0.4;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  line-height: 22px;
+  font-size: 14px;
+}
+
+@media (max-width: 767px) {
+  .prompts-container {
+    width: 100%;
+    flex-wrap: nowrap;
+  }
+  .box {
+    width: 24vh;
+  }
+  .row:nth-child(n + 3) {
+    display: none;
+  }
+}

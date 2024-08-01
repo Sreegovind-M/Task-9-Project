@@ -1,0 +1,94 @@
+.navigation-section {
+  background-color: #0f0f11;
+  width: 100%;
+  padding: 2vh 3.5vh;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  border-bottom:1px solid rgb(39, 39, 42);
+}
+
+.side-head {
+  display: flex;
+  gap: 1.5vh;
+  align-items: center;
+}
+
+.side-head span {
+  color: #a1a1aa80;
+  font-size: 3vh;
+}
+
+.side-head a {
+  color: #e4e4e7;
+  text-decoration: none;
+  font-size: 2vh;
+  font-weight: 500;
+}
+.side-head a:hover {
+  border-bottom: 1px solid white;
+}
+
+.side-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.git {
+  background-color: #09090b;
+  color: white;
+  border: 1px solid #27272a;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0.5vh 1.5vh;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.git:hover{
+  background-color: #27272a;
+}
+.vercel:hover{
+  background-color: #fafafae6;
+}
+
+.vercel {
+  background-color: white;
+  border-radius: 8px;
+  color: #18181b;
+  border: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 0.5vh 1.5vh;
+  font-weight: 600;
+}
+
+.vercel-logo {
+  padding: 5px;
+}
+.git-logo{
+  padding: 5px;
+}
+.logo{
+  cursor: pointer;
+}
+
+@media (max-width: 645px) {
+  .git span {
+    display: none;
+  }
+  .vercel span {
+    width: 48px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: hidden;
+  }
+  .side-head span {
+    font-size: 2vh;
+  }
+}
